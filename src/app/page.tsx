@@ -5,75 +5,18 @@ import Header from "@/components/Home/Header.component";
 import ProjectModal from "@/components/ProjectModal.component";
 import { useState } from "react";
 
-const projects = [
-  {
-    id: "c8456gf1",
-    title: "Beautiful Nature",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-    image: "https://placehold.co/600x400",
-    images: [
-      "https://placehold.co/600x400",
-      "https://placehold.co/600x400",
-      "https://placehold.co/600x400",
-    ],
-    technologies: ["React", "Tailwind", "Next"],
-    github: "https://github.com",
-    demo: "https://demo.com",
-  },
-  {
-    id: "c8456gf1",
-    title: "Beautiful Nature",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-    image: "https://placehold.co/600x400",
-    images: [
-      "https://placehold.co/600x400",
-      "https://placehold.co/600x400",
-      "https://placehold.co/600x400",
-    ],
-    technologies: ["React", "Tailwind", "Next"],
-    github: "https://github.com",
-    demo: "https://demo.com",
-  },
-  {
-    id: "c8456gf1",
-    title: "Beautiful Nature",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-    image: "https://placehold.co/600x400",
-    images: [
-      "https://placehold.co/600x400",
-      "https://placehold.co/600x400",
-      "https://placehold.co/600x400",
-    ],
-    technologies: ["React", "Tailwind", "Next"],
-    github: "https://github.com",
-    demo: "https://demo.com",
-  },
-  {
-    id: "c8456gf1",
-    title: "Beautiful Nature",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-    image: "https://placehold.co/600x400",
-    images: [
-      "https://placehold.co/600x400",
-      "https://placehold.co/600x400",
-      "https://placehold.co/600x400",
-    ],
-    technologies: ["React", "Tailwind", "Next"],
-    github: "https://github.com",
-    demo: "https://demo.com",
-  }
-]
+import { projects } from "@/data/data";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   const [modalContentId, setModalContentId] = useState<string>("");
 
   // Modal handler
-  const openModal = () => {
+  const openModal = (id: string) => {
     setIsModalOpen(true);
 
     // Set modal content
-    setModalContentId("c8456gf1");
+    setModalContentId(id);
   }
 
   return (

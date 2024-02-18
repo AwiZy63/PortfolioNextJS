@@ -10,7 +10,7 @@ export default function ProjectCard(props: Props) {
     return (
         <div className="bg-gray-900 shadow-lg rounded-lg overflow-hidden">
             <Image
-                className="w-full h-56 object-cover object-center"
+                className="w-full h-56 object-cover object-top"
                 src={props.project.image}
                 width={720}
                 height={400}

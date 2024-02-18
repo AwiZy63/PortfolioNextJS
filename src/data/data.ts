@@ -1,54 +1,58 @@
 // Soul Serenade
-import soulSerenadeImage1 from "@/public/soulserenade/Accueil.png";
-import soulSerenadeImage2 from "@/public/soulserenade/Programme.png";
-import soulSerenadeImage3 from "@/public/soulserenade/ProfilArtiste.png";
-import soulSerenadeImage4 from "@/public/soulserenade/Reservations.png";
-import soulSerenadeImage5 from "@/public/soulserenade/Contact.png";
+import soulSerenadeImage1 from "@/assets/soulserenade/Accueil.png";
+import soulSerenadeImage2 from "@/assets/soulserenade/Programme.png";
+import soulSerenadeImage3 from "@/assets/soulserenade/ProfilArtiste.png";
+import soulSerenadeImage4 from "@/assets/soulserenade/Reservations.png";
+import soulSerenadeImage5 from "@/assets/soulserenade/Contact.png";
 
 // Plastic Duck App
-import plasticDuckImage1 from "@/public/plasticduck/Home.png";
-import plasticDuckImage2 from "@/public/plasticduck/HomeNav.png";
-import plasticDuckImage3 from "@/public/plasticduck/MusicSelector.png";
-import plasticDuckImage4 from "@/public/plasticduck/MusicSelectorView.png";
-import plasticDuckImage5 from "@/public/plasticduck/News.png";
-import plasticDuckImage6 from "@/public/plasticduck/PhotoSelector.png";
-import plasticDuckImage7 from "@/public/plasticduck/Photo.png";
-import plasticDuckImage8 from "@/public/plasticduck/Signup.png";
-import plasticDuckImage9 from "@/public/plasticduck/Profile.png";
-import plasticDuckImage10 from "@/public/plasticduck/AccountEdition.png";
-import plasticDuckImage11 from "@/public/plasticduck/Contact.png";
+import plasticDuckImage1 from "@/assets/plasticduck/Home.png";
+import plasticDuckImage2 from "@/assets/plasticduck/HomeNav.png";
+import plasticDuckImage3 from "@/assets/plasticduck/MusicSelector.png";
+import plasticDuckImage4 from "@/assets/plasticduck/MusicSelectorView.png";
+import plasticDuckImage5 from "@/assets/plasticduck/News.png";
+import plasticDuckImage6 from "@/assets/plasticduck/PhotoSelector.png";
+import plasticDuckImage7 from "@/assets/plasticduck/Photo.png";
+import plasticDuckImage8 from "@/assets/plasticduck/Signup.png";
+import plasticDuckImage9 from "@/assets/plasticduck/Profile.png";
+import plasticDuckImage10 from "@/assets/plasticduck/AccountEdition.png";
+import plasticDuckImage11 from "@/assets/plasticduck/Contact.png";
 
 // Swizen
-import swizenImage1 from "@/public/swizen/Home.png";
-import swizenImage2 from "@/public/swizen/SignIn.png";
-import swizenImage3 from "@/public/swizen/SignUp.png";
-import swizenImage4 from "@/public/swizen/Profile.png";
+import swizenImage1 from "@/assets/swizen/Home.png";
+import swizenImage2 from "@/assets/swizen/SignIn.png";
+import swizenImage3 from "@/assets/swizen/SignUp.png";
+import swizenImage4 from "@/assets/swizen/Profile.png";
 
 // Hyzen
-import hyzenImage1 from "@/public/hyzen/Wireframe1.png";
-import hyzenImage2 from "@/public/hyzen/Wireframe2.png";
-import hyzenImage3 from "@/public/hyzen/Wireframe3.png";
-import hyzenImage4 from "@/public/hyzen/Wireframe4.png";
+import hyzenImage1 from "@/assets/hyzen/Wireframe1.png";
+import hyzenImage2 from "@/assets/hyzen/Wireframe2.png";
+import hyzenImage3 from "@/assets/hyzen/Wireframe3.png";
+import hyzenImage4 from "@/assets/hyzen/Wireframe4.png";
 
 // La Concordia
-import laConcordiaImage1 from "@/public/laconcordia/News.png";
-import laConcordiaImage2 from "@/public/laconcordia/News2.png";
-import laConcordiaImage3 from "@/public/laconcordia/EventsAfter.png";
-import laConcordiaImage4 from "@/public/laconcordia/EventsOld.png";
-import laConcordiaImage5 from "@/public/laconcordia/GalleryHome.png";
-import laConcordiaImage6 from "@/public/laconcordia/GalleryListing.png";
-import laConcordiaImage7 from "@/public/laconcordia/GalleryView.png";
-import laConcordiaImage8 from "@/public/laconcordia/MusicSchool.png";
-import laConcordiaImage9 from "@/public/laconcordia/Band.png";
-import laConcordiaImage10 from "@/public/laconcordia/Contact.png";
-import laConcordiaImage11 from "@/public/laconcordia/SignUp.png";
-import laConcordiaImage12 from "@/public/laconcordia/PanelProfile.png";
+import laConcordiaImage1 from "@/assets/laconcordia/News.png";
+import laConcordiaImage2 from "@/assets/laconcordia/News2.png";
+import laConcordiaImage3 from "@/assets/laconcordia/EventsAfter.png";
+import laConcordiaImage4 from "@/assets/laconcordia/EventsOld.png";
+import laConcordiaImage5 from "@/assets/laconcordia/GalleryHome.png";
+import laConcordiaImage6 from "@/assets/laconcordia/GalleryListing.png";
+import laConcordiaImage7 from "@/assets/laconcordia/GalleryView.png";
+import laConcordiaImage8 from "@/assets/laconcordia/MusicSchool.png";
+import laConcordiaImage9 from "@/assets/laconcordia/Band.png";
+import laConcordiaImage10 from "@/assets/laconcordia/Contact.png";
+import laConcordiaImage11 from "@/assets/laconcordia/SignUp.png";
+import laConcordiaImage12 from "@/assets/laconcordia/PanelProfile.png";
+
+// Portfolio NextJS
+import portfolioNextJSImage1 from "@/assets/portfolio/Home.png";
+import portfolioNextJSImage2 from "@/assets/portfolio/Contact.png";
 
 const projects: TProjects = [
     {
         id: "c8456gf1",
         title: "Soul Serenade",
-        description: "",
+        description: "Site réalisé dans le cadre d'un projet bootcamp. Il s'agit d'un site qui doit présenter un festival de musique. Le site doit permettre de consulter la programmation, de réserver des places pour les concerts, de consulter les profils des artistes et de contacter les organisateurs. Le site doit être responsive et respecter les maquettes fournies.",
         image: soulSerenadeImage1,
         images: [
             soulSerenadeImage1,
@@ -64,7 +68,7 @@ const projects: TProjects = [
     {
         id: "f4g5h6j7",
         title: "Plastic Duck App",
-        description: "",
+        description: "Application mobile réalisée avec React Native dans le cadre d'un projet lié à un groupe de musique, Les Plastic Duck. L'application doit permettre de consulter les actualités du groupe, de consulter les photos et vidéos, d'écouter la musique, de consulter les dates de concerts, de contacter le groupe et de s'inscrire à la newsletter. L'application doit être adaptée à tout supports et respecter les maquettes créées.",
         image: plasticDuckImage1,
         images: [
             plasticDuckImage1,
@@ -85,7 +89,7 @@ const projects: TProjects = [
     {
         id: "a1s2d3f4",
         title: "Swizen",
-        description: "",
+        description: "Ce site est un projet personnel avec un ancien collègue de formation. Il s'agit d'un site d'hébergement de serveurs de jeux en ligne. Le site doit permettre de consulter les offres, de s'inscrire, de se connecter, de consulter son profil, de contacter le support et de consulter les actualités. Le site doit être responsive et respecter les maquettes fournies. Le site doit être sécurisé et les données doivent être stockées dans une base de données. Le site doit être accompagné d'une API qui permettra de gérer les utilisateurs, les offres, les actualités, les tickets de support et qui pourra communiquer avec l'API même du panel pour la création automatique de services. Je me suis occupé de la partie back-end sur ce projet.",
         image: swizenImage1,
         images: [
             swizenImage1,
@@ -99,7 +103,7 @@ const projects: TProjects = [
     {
         id: "x1c2v3b4",
         title: "La Concordia",
-        description: "",
+        description: "Ce site à été créé pour l'association musicale La Concordia à Loos en Gohelle. Le site doit permettre de consulter les actualités, les événements, la galerie, les informations de l'école de musique, l'harmonie, de contacter l'association et de s'inscrire. Le site est responsive, sécurisé et les données sont stockées dans une base de données. Le site est accompagné d'une API qui permet de gérer les utilisateurs, les actualités, les événements, la galerie, l'harmonie, les tickets de support etc.. Le site ne devrait pas tarder à être ouvert au grand publique.",
         image: laConcordiaImage1,
         images: [
             laConcordiaImage1,
@@ -122,7 +126,7 @@ const projects: TProjects = [
     {
         id: "z9e8r7t6",
         title: "Hyzen",
-        description: "",
+        description: "Ce site est la vitrine de mon Auto-Entreprise. Le site permet dont de consulter mes projets anciennement réalisés, les services proposés et de me contacter.",
         image: hyzenImage1,
         images: [
             hyzenImage1,
@@ -133,6 +137,19 @@ const projects: TProjects = [
         technologies: ["ReactJS", "Sass", "Figma", "Git", "Postman", "Axios", "Cors", "JsonWebToken", "MariaDB", "ExpressJS", "NodeJS", "Sequelize ORM"],
         github: "https://github.com/Hyzen-dev/Hyzen-Portfolio",
         demo: "https://hyzen.fr"
+    },
+    {
+        id: "q1w2e354",
+        title: "Portfolio NextJS",
+        description: "Ce site est celui sur lequel vous vous trouvez actuellement, il a été réaliser en une petite après midi pour me permettre de présenter mes projets de manière plus visuelle et de manière plus professionnelle (cela me permet aussi de justifier de mon experience en TypeScript et en NextJS).",
+        image: portfolioNextJSImage1,
+        images: [
+            portfolioNextJSImage1,
+            portfolioNextJSImage2,
+        ],
+        technologies: ["NextJS", "TypeScript", "TailwindCSS", "Git"],
+        github: "https://github.com/AwiZy63/PortfolioNextJS",
+        demo: "/"
     }
 ]
 
