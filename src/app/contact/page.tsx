@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Contact - Flanquart Bastien's Portfolio",
+    description: "Contactez-moi pour discuter de vos projets ou si vous avez des questions",
+};
+
 export default function Contact() {
     return (
         <div id="contact" className="container w-full md:w-1/2 mx-auto px-4 w-full py-8 sm:px-6 lg:px-8">
